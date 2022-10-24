@@ -1,0 +1,43 @@
+We use props in dans React pour transmettre des données
+ d'un composant à un autre (d'un composant parent à un 
+ ou plusieurs composants enfants). Props est juste une 
+ façon plus courte de dire les propriétés.
+ Ils sont utiles lorsque vous souhaitez que le flux de 
+ données dans votre application soit dynamique.
+
+
+
+Créons maintenant un autre composant nommé Tool.js. Ce fichier 
+affichera des informations sur l'outil préféré d'un concepteur de produit. 
+
+
+
+Nous allons maintenant importer ce composant dans le Appcomposant. C'est-à-dire:
+
+
+Supposons que le Toolcomposant sera réutilisable dans différents composants pour
+ décrire différents concepteurs et leurs outils préférés.
+
+ ainsi nous devons utiliser la meme logique et d'autres composants pour ecrire la mm phrase avec des noms differents 
+ la mm logique se base sur le meme principe pour des cartes ou autres 
+
+
+ --------------> ici nous avons le props 👍
+ Si vous ne comprenez pas encore comment cela fonctionne, les props nous
+permettent de réutiliser dynamiquement la logique d'un composant. Cela signifie
+que les données du composant ne seront pas statiques. Ainsi, pour tous les 
+autres composants utilisant cette logique, ses données peuvent être modifiées
+pour répondre aux exigences.
+
+Comment utiliser les props dans React ?
+
+--------------------------------------------------------------------------------------------->>>>>>
+
+
+Comment définir des valeurs par défaut pour les props
+Si vous ne voulez pas que vos données d'accessoires soient 
+vides lorsque vous les créez, vous pouvez transmettre une
+ valeur par défaut. Voici comment procéder .
+
+
+ 
